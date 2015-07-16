@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!-- This is how you make a comment -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BETA Testing should be in progress</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<style>
+		@media screen and (max-width: 1024px) { /*na kva golemina da go prexvurlq na dropdown*/
+			.nav-pills > li {
+			  float: none;
+			}
+			.nav-pills > li + li {
+			  margin-top: 2px;
+			  margin-left: 0;
+			}
+		}
+		.nav {
+			margin-left: auto;
+    		margin-right: auto;
+    		width: 60%;
+    		padding-top: 15px;
+		}
+		.page-header {
+			text-align:center;
+			float:auto;
+			border-left-style: solid;
+			border-left-color: #eee;
+			border-right-style: solid;
+			border-right-color: #eee;
+			border-bottom-style: solid;
+			border-bottom-color: #eee;
+			border-bottom-width: 3px;
+			background-color:black;
+			color:white;
+			font-weight: bold;
+			height: 120px;
+			width: 90%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 1%;
+			padding-bottom: 0%;
+		}
+		h1 {
+			font-size: 300%;
+		}
+		#jump1{
+			float: auto;
+			width: 36%;
+			height: 90px;
+			border-right-style: solid;
+			border-bottom-style: solid;
+			border-left-style: solid;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -0.2%;
+			margin-bottom: 0%;
+			padding-top: 1%;
+			padding-bottom: 0%;
+			padding-left: 2%;
+			padding-right: 2%;
+		}
+		.btn-group{
+			float:none;
+		}
+		#jum1{
+			float: auto;
+			width: 67%;
+			height: 390px;
+			border-right-style: solid;
+			border-bottom-style: solid;
+			border-left-style: solid;
+			border-top-style: solid;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 3%;
+			margin-bottom: 2%;
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.jfott {
+            width: 60%;
+            bottom: 0;
+			float: left;
+			background-color: #000000 ;
+			font-weight: bold;
+			border-color: #eee;
+			border-left-style: solid;
+			border-right-style: solid;
+			border-top-style: solid;
+			margin-left: 20%;
+			margin-bottom: 0;
+			margin-right: 20%;
+			margin-top:2%;
+			text-align: center;
+			position: fixed;
+        }
+		body {
+		background-size : 100%;
+		background: url("IT/image1.jpg") no-repeat center center fixed ; 
+		background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="page-header">
+		<h1>Project Pants</h1>
+	</div>
+	<div class="container">
+		<ul class="nav nav-pills justified">
+		  <li role="presentation" class="active " ><a class="btn-lg" href="/">Home</a></li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      C <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      	<li><a role="presentation" href="safe.php">Magic square</a></li>
+			  	<li><a role="presentation" href="safe53.php">Rotation13</a></li>
+				<li><a role="presentation" href="safe54.php">Lucas's number</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      HTML <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      PHP <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      Ruby <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation"><a class="btn-lg btn-warning" href="#">Do a Test</a></li>
+		</ul>
+	</div>	
+
+	<!--<div class="jumbotron" id="jump1">
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-lg btn-primary">Home</button>
+			<div class="btn-group" role="group" >
+				<button class="btn btn-lg btn-warning dropdown-toggle" id="J_BUT" type="button" data-toggle="dropdown"> C
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="safe.php">Magic square</a></li>
+					<li><a href="safe53.php">Rotation13</a></li>
+					<li><a href="safe54.php">Lucas's number</a></li>
+				</ul>
+			</div>
+			<div class="btn-group" role="group" >
+				<button class="btn btn-lg btn-success dropdown-toggle" id="J_BUT" type="button" data-toggle="dropdown"> HTML
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Program1</a></li>
+					<li><a href="#">Program2</a></li>
+					<li><a href="#">Program3</a></li>
+				</ul>
+			</div>
+			<div class="btn-group" role="group" >
+				<button class="btn btn-lg btn-info dropdown-toggle" id="J_BUT" type="button" data-toggle="dropdown"> PHP
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Program1</a></li>
+					<li><a href="#">Program2</a></li>
+					<li><a href="#">Program3</a></li>
+				</ul>
+			</div>
+			<div class="btn-group" role="group" >
+				<button class="btn btn-lg btn-danger dropdown-toggle" id="J_BUT" type="button" data-toggle="dropdown"> Ruby
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Program1</a></li>
+					<li><a href="#">Program2</a></li>
+					<li><a href="#">Program3</a></li>
+				</ul>
+			</div>
+			<div class="btn-group" role="group">
+				<a class="btn btn-lg btn-success" href="#" id="J_BUT" type="button">Test Creation
+					<span class="carret"></span>
+				</a>
+			</div>
+		</div>
+	</div>-->
+	<div class="jumbotron" id="jum1">
+		<p>Box for the Code</p> <!-- FORMAT TEXT/CODE -->
+		<br><br>
+		<p>
+			Comment your opinion here : <a href="http://localhost/commentbox.php">http://localhost/commentbox.php</a>
+		</p>
+	</div>
+	<div class="jfott"><p><font color= "#FFFFFF">Copyright© Open Text Corporation. All Rights Reserved.</font></p></div>
+
+	  
+</body>
+</html>

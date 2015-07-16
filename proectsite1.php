@@ -1,0 +1,72 @@
+
+<html>
+<head>
+	<!--Bootstrap Start -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- BS library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!--Bootstrap end-->
+	<style>
+		body {
+			background-size : 100%;
+			background: url("LoginBackground.jpg") no-repeat center center fixed ; 
+			background-size: cover;
+		}
+		.page-header{
+			margin-top: 0;
+			border-bottom:0;
+			color:#ffffff;
+		
+		}
+		#buttons{
+		margin-top:5%;
+		}
+		
+		#button1{
+		color:black;
+		background-color:#FFFFFF;
+		border-color:#FFFFFF;
+		}
+		
+		#button2{
+		background-color:#486271;
+		border-color:#486271;
+		}
+		#lenny{
+		
+		margin-top:6%;
+		}
+		.jfott {
+            width: 60%;
+            bottom: 0;
+			float: left;
+            position: absolute;
+			background-size : 100%;
+			background: url("LoginBackground.jpg") no-repeat center center fixed ; 
+			background-size: cover;
+			font-weight: bold;
+			border-color: #eee;
+			border-left-style: solid;
+			border-right-style: solid;
+			border-top-style: solid;
+			margin-left: 20%;
+			margin-right: 20%;
+			text-align: center;
+        }
+	</style>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="page-header text-center" ><h1>LennyFaCe Project</h1></div>
+	<div class="text-center"><img src="logo.png"></div>
+	<div class="text-center" id="buttons">
+		<a class="btn btn-primary btn-lg" role="button" id="button1" href="proect_login.php">Login</a>
+  		<a class="btn btn-primary btn-lg" role="button" id="button2" href="register.php">Sign up</a>
+	</div>
+	<div class="text-center col-sm-12" id="lenny">
+	<img src="rsz_lennyface.jpg">
+	</div>
+	<div class="jfott"><p><font color= "#FFFFFF">Lenny FaCe@HackTUES2015</font></p></div>
+</body>
+</html>

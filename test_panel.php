@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<!DOCTYPE html>
+<!-- This is how you make a comment -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>BETA Testing should be in progress</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<style>
+		@media screen and (max-width: 1024px) { /*na kva golemina da go prexvurlq na dropdown*/
+			.nav-pills > li {
+			  float: none;
+			}
+			.nav-pills > li + li {
+			  margin-top: 2px;
+			  margin-left: 0;
+			}
+		}
+		.nav {
+			margin-left: auto;
+    		margin-right: auto;
+    		width: 60%;
+    		padding-top: 15px;
+		}
+		.page-header {
+			text-align:center;
+			float:auto;
+			border-left-style: solid;
+			border-left-color: #eee;
+			border-right-style: solid;
+			border-right-color: #eee;
+			border-bottom-style: solid;
+			border-bottom-color: #eee;
+			border-bottom-width: 3px;
+			background-color:black;
+			color:white;
+			font-weight: bold;
+			height: 120px;
+			width: 90%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 1%;
+			padding-bottom: 0%;
+		}
+		h1 {
+			font-size: 300%;
+		}
+		#jump1{
+			float: auto;
+			width: 36%;
+			height: 90px;
+			border-right-style: solid;
+			border-bottom-style: solid;
+			border-left-style: solid;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -0.2%;
+			margin-bottom: 0%;
+			padding-top: 1%;
+			padding-bottom: 0%;
+			padding-left: 2%;
+			padding-right: 2%;
+		}
+		.btn-group{
+			float:none;
+		}
+		#jum1{
+			float: auto;
+			width: 67%;
+			height: 390px;
+			border-right-style: solid;
+			border-bottom-style: solid;
+			border-left-style: solid;
+			border-top-style: solid;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 3%;
+			margin-bottom: 2%;
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.jfott {
+            width: 60%;
+            bottom: 0;
+			float: left;
+			background-size : 100%;
+			background: url("LoginBackground.jpg") no-repeat center center fixed ; 
+			background-size: cover;
+			font-weight: bold;<meta http-equiv="charset" content="utf-8" />
+			font-weight: bold;
+			border-color: #eee;
+			border-left-style: solid;
+			border-right-style: solid;
+			border-top-style: solid;
+			margin-left: 20%;
+			margin-bottom: 0;
+			margin-right: 20%;
+			margin-top:2%;
+			text-align: center;
+			position: fixed;
+        }
+        .comments{
+			margin-left: auto;
+			margin-right: auto;
+            float:auto;
+            text-align: center;
+            
+        }
+		body {
+		background-size : 100%;
+		background: url("LoginBackground.jpg") no-repeat center center fixed ; 
+		background-size: cover;
+		
+		}
+		.page-header{
+		background-size : 100%;
+		background: url("LoginBackground.jpg") no-repeat center center fixed ; 
+		background-size: cover;
+		}
+		
+		.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+#ul1:hover {
+
+    background: #fff;
+	
+}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="page-header">
+		<h1>Lenny FaCe Test Platform</h1>
+	</div>
+	<div class="container">
+		<ul class="nav nav-pills justified">
+		  <li role="presentation" class="active " ><a class="btn-lg" href="#">Home</a></li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      C <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu btn-danger">
+		      	<li><a role="presentation" href="safe.php">Magic square</a></li>
+			  	<li><a role="presentation" href="safe53.php">Rotation13</a></li>
+				<li><a role="presentation" href="safe54.php">Lucas's number</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      HTML <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle btn-lg btn-success" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      PHP <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu">
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		      <li role="presentation"><a href="#">Some page</a></li>
+		    </ul>
+		  </li>
+		  <li role="presentation" class="dropdown">
+		    
+            <a class="dropdown-toggle btn-lg btn-danger" id="dLabel" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  data-target="#" href="/page.html">
+                Оценки <span class="caret"></span>
+            </a>
+    		<ul class="dropdown-menu multi-level btn btn-danger" role="presentation" aria-labelledby="dropdownMenu">
+             
+			  <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Елементи</a>
+                <ul class="dropdown-menu btn btn-danger">
+                  
+                  <li class="dropdown-submenu">
+                    <a href="#">8</a>
+                    <ul class="dropdown-menu btn btn-danger" >
+
+						<form action="elementi8.php" method="POST" >
+						<input type="submit" name="8_A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="8_B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="8_V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="8_G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+					
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">9</a>
+                    <ul class="dropdown-menu btn btn-danger">
+                        
+					  <form action="elementi9.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+					
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">10</a>
+                    <ul class="dropdown-menu btn btn-danger " >
+						
+                        <form action="elementi10.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+						
+                    </ul>
+                  </li>
+				  <li class="dropdown-submenu">
+                    <a href="#">11</a>
+                    <ul class="dropdown-menu btn btn-danger">
+                        
+						<form action="elementi11.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+						
+                    </ul>
+                  </li>
+				  <li class="dropdown-submenu">
+                    <a href="#">12</a>
+                    <ul class="dropdown-menu btn btn-danger">
+                        
+						<form action="elementi12.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+						
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+			  
+			  
+		      <li role="presentation"><a href="#">Цифрова</a></li>
+		      <li role="presentation"><a href="#">Математика</a></li>
+			  <li role="presentation"><a href="#">География</a></li>
+             
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">История</a>
+                <ul class="dropdown-menu btn btn-danger">
+                  
+                  <li class="dropdown-submenu">
+                    <a href="#">8</a>
+                    <ul class="dropdown-menu btn btn-danger" >
+
+						<form action="istoriq8.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+					
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">9</a>
+                    <ul class="dropdown-menu btn btn-danger">
+                        
+					  <form action="istoriq9.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+					
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">10</a>
+                    <ul class="dropdown-menu btn btn-danger " >
+						
+                        <form action="istoriq10.php" method="POST" >
+						<input type="submit" name="10_A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="10_B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="10_V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="10_G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+						
+                    </ul>
+                  </li>
+				  <li class="dropdown-submenu">
+                    <a href="#">11</a>
+                    <ul class="dropdown-menu btn btn-danger">
+                        
+						<form action="istoriq11.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+						
+                    </ul>
+                  </li>
+				  <li class="dropdown-submenu">
+                    <a href="#">12</a>
+                    <ul class="dropdown-menu btn btn-danger">
+                        
+						<form action="istoriq12.php" method="POST" >
+						<input type="submit" name="A" style="color: black" value="А" id = "ul1" class="btn btn-danger col-md-12">
+                    	<input type="submit" name="B" style="color: black" value="Б" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="V" style="color: black" value="В" id = "ul1" class="btn btn-danger col-md-12">
+						<input type="submit" name="G" style="color: black" value="Г" id = "ul1" class="btn btn-danger col-md-12">
+						</form>
+						
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        
+		  </li>
+		  <li role="presentation"><a class="btn-lg btn-danger" href="choose.php">Създай тест</a></li>
+		  <li role="presentation"><a class="btn-lg btn-danger" href="choosestudents.php">Реши тест</a></li>
+		</ul>
+	</div>	
+
+	
+	<div class="jumbotron" id="jum1">
+	<div class="col-sm-12 text-center">
+	TEAM LENNYFACE UI
+	</div>
+	<div class="col-sm-12 text-center"><img src="logo.png"> </div>
+	<div class="col-sm-12 text-center"><img src="rsz_lennyface.jpg"></div>
+		
+		
+	</div>
+	<div class="jfott"><p><font color= "#FFFFFF">Lenny FaCe@HackTUES2015</font></p></div>
+
+	  
+</body>
+</html></head>
+
+<body>
+
+</body>
+</html>
